@@ -8,9 +8,9 @@ function App() {
    about:"Hi i am Full Stack Web Developer"
   })
   const [point,setpoint]=useState(true)
-  const [image,setImageSrc]=useState('public/image/img2.jpeg');
-  const audio = new Audio('public/Sound/btn.mp3');
-  const audio1 = new Audio('public/Sound/upload.mp3');
+  const [image,setImageSrc]=useState('image/img2.jpeg');
+  const audio = new Audio('Sound/btn.mp3');
+  const audio1 = new Audio('Sound/upload.mp3');
   function changedata(e)
   {
     
